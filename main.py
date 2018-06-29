@@ -309,6 +309,7 @@ def listen_C():
     return 'over'
 
 if __name__ == '__main__':
+    print("OK !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
     init()
     app.run(host='localhost',port=portList[my_server],debug=True,use_reloader=False)
     #while True:
